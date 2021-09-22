@@ -1,0 +1,21 @@
+.artistItem {
+  border: solid 1px rgb(49, 151, 151);
+  display: flex;
+  margin: 5px 0;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  margin-right: 15px;
+}
+.artistName {
+  color: rgb(49, 151, 151);
+  font-size: 20px;
+}
+.trackName {
+  color: black;
+  font-size: 18px;
+}

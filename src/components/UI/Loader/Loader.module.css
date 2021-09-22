@@ -1,0 +1,30 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 40%;
+  left: 46%;
+}
+.loader div {
+  border: dashed 3px rgb(49, 151, 151);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(360deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(720deg) scale(1);
+  }
+}
