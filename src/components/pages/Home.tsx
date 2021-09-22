@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div>
-      
+      <h1>On this page I try show some technologies</h1>
     </div>
   )
 }
+
+export default Home

@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { FC, InputHTMLAttributes } from 'react';
 import cl from './Input.module.css';
 
-export const Input: React.FC = (props, ref) => {
+interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+  name: string;
+  label: string;
+}
+
+export const Input: FC<InputProps> = ({ name, label, ...rest }) => {
   return (
-    <input ref={ref} className={cl.myInpt} {...props} />
+    <div className="input-wrapper">
+      <label htmlFor={name}>{label}</label>
+      <input id={name} {...rest} className={cl.myInpt} />
+    </div>
   );
 }

@@ -17,11 +17,8 @@ function difArray(pagesCount: string, currentPage: string): string[] {
   }
 }
 
-
 // 1, 2, 3, 4, 5, 6, ..., 950
 
 // 1, ..., 4, 5, 6, 7, ..., 950
 
 // 1, ..., 945, 946, 947, 948, 949, 950
-
-// 1, ..., 4, 5, 6, 7, 8, 9
