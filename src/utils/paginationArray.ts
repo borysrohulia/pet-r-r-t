@@ -3,7 +3,6 @@ export const paginationArray = (pagesCount: string, currentPage: string): string
 }
 
 function simpleArray(pagesCount: string): string[] {
-  console.log('from simple: ', pagesCount)
   return Array.from({length: Number(pagesCount)}, (_, i) => (i + 1).toString())
 }
 

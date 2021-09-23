@@ -27,8 +27,6 @@ const Artists: React.FC = () => {
     fetchArtist(page.page)
   }, [page])
 
-  console.log(pagination)
-
   if (loading) {
     return <Loader />
   }

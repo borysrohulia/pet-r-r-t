@@ -14,8 +14,6 @@ interface PaginationProps {
 
 export const Pagination: React.FC<PaginationProps> = ({pagination, updatePage}) => {
 
-  console.log('from pagination: ', pagination)
-
   const disabledPrev = pagination.page === '1'
   const disabledNext = pagination.page === pagination.totalPages
 

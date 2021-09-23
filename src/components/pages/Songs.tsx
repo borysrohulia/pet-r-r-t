@@ -12,8 +12,6 @@ const Songs: React.FC = () => {
   const {fetchSongs} = useActionsSong()
   const filterSongs = getfilterSongs(search, songs)
 
-  console.log(search)
-
   useEffect(() => {
     fetchSongs()
   }, [])
