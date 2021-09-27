@@ -3,10 +3,6 @@ import { IPaginationInfo } from '../../../types/pagination';
 import { paginationArray } from '../../../utils/paginationArray';
 import cl from './Pagination.module.css';
 
-// interface IUpdatePage {
-//   (page: string): string;
-// }
-
 interface PaginationProps {
   pagination: IPaginationInfo;
   updatePage: any;
