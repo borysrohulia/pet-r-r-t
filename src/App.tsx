@@ -16,18 +16,18 @@ function App() {
     <div className="App">
       <div className="App-wrapper">
         <Router>
-            <Header />
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="/artists">
-                <Artists />
-              </Route>
-              <Route path="/songs">
-                <Songs />
-              </Route>
-            </Switch>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/artists">
+              <Artists />
+            </Route>
+            <Route path="/songs">
+              <Songs />
+            </Route>
+          </Switch>
         </Router>
         <Footer />
       </div>
